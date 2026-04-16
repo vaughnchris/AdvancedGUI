@@ -5,7 +5,7 @@ class AdvancedGUI:
     def __init__(self, master):
         self.master = master
         master.title("Advanced GUI App")
-
+#
         self.label_text = tk.StringVar()
         self.label_text.set("Welcome to the Advanced GUI!")
 
